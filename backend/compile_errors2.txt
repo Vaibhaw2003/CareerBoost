@@ -1,0 +1,450 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.careerboost:careerboost-backend >-----------------
+[INFO] Building careerboost-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ careerboost-backend ---
+[INFO] Deleting C:\Users\Lenovo\OneDrive\Desktop\SOFTWEAR ENGINER\CareerBoost AI\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ careerboost-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ careerboost-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 35 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[5,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[6,75] package org.springframework.security.config.annotation.method.configuration does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[7,67] package org.springframework.security.config.annotation.web.builders does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[8,72] package org.springframework.security.config.annotation.web.configuration does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[9,70] package org.springframework.security.config.annotation.web.configurers does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[10,48] package org.springframework.security.config.http does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[11,40] package org.springframework.security.web does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[12,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[21,2] cannot find symbol
+  symbol: class EnableWebSecurity
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[22,2] cannot find symbol
+  symbol: class EnableMethodSecurity
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[9,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[10,49] package org.springframework.security.core.context does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[11,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[12,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[13,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[26,19] cannot find symbol
+  symbol:   class AuthenticationProvider
+  location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[28,66] cannot find symbol
+  symbol:   class AuthenticationProvider
+  location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[34,52] cannot find symbol
+  symbol:   class HttpSecurity
+  location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[34,12] cannot find symbol
+  symbol:   class SecurityFilterChain
+  location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[8,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[23,19] cannot find symbol
+  symbol:   class UserDetailsService
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[25,59] cannot find symbol
+  symbol:   class UserDetailsService
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[35,33] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[39,66] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[43,64] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[54,47] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/DashboardController.java:[8,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[7,41] package org.springframework.security.core does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[8,51] package org.springframework.security.core.authority does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[9,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[15,30] cannot find symbol
+  symbol: class UserDetails
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[29,33] cannot find symbol
+  symbol:   class GrantedAuthority
+  location: class com.careerboost.model.User
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[6,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[8,55] package org.springframework.security.authentication.dao does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[9,83] package org.springframework.security.config.annotation.authentication.configuration does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[10,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[11,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[12,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[13,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[25,12] cannot find symbol
+  symbol:   class UserDetailsService
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[31,12] cannot find symbol
+  symbol:   class AuthenticationProvider
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[39,56] cannot find symbol
+  symbol:   class AuthenticationConfiguration
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[39,12] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[44,12] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[9,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[5,43] package org.springframework.security.access does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[6,41] package org.springframework.security.core does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[24,78] cannot find symbol
+  symbol:   class AuthenticationException
+  location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[31,76] cannot find symbol
+  symbol:   class AccessDeniedException
+  location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[10,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[11,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[12,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[18,19] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[20,19] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[22,51] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[22,107] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AuthController.java:[9,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[9,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/PaymentController.java:[6,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/DashboardController.java:[28,65] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.DashboardController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[31,14] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.ResumeController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[43,14] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.ResumeController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[53,53] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.ResumeController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[23,23] cannot find symbol
+  symbol:   class AuthenticationException
+  location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[30,23] cannot find symbol
+  symbol:   class AccessDeniedException
+  location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AuthController.java:[37,49] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.AuthController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[25,93] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[30,89] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[35,95] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[40,95] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/PaymentController.java:[22,48] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.PaymentController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/PaymentController.java:[29,92] cannot find symbol
+  symbol:   class AuthenticationPrincipal
+  location: class com.careerboost.controller.PaymentController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[46,45] cannot find symbol
+  symbol:   class UsernamePasswordAuthenticationFilter
+  location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[36,19] cannot find symbol
+  symbol:   variable AbstractHttpConfigurer
+  location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[44,73] cannot find symbol
+  symbol:   variable SessionCreationPolicy
+  location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[48,38] cannot find symbol
+  symbol:   variable SecurityContextHolder
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[49,17] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[51,21] cannot find symbol
+  symbol:   class UsernamePasswordAuthenticationToken
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[51,73] cannot find symbol
+  symbol:   class UsernamePasswordAuthenticationToken
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[56,46] cannot find symbol
+  symbol:   class WebAuthenticationDetailsSource
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[57,21] cannot find symbol
+  symbol:   variable SecurityContextHolder
+  location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[28,5] getAuthorities() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[30,28] cannot find symbol
+  symbol:   class SimpleGrantedAuthority
+  location: class com.careerboost.model.User
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[33,5] getUsername() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[38,5] getPassword() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[43,5] isAccountNonExpired() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[45,5] isAccountNonLocked() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[47,5] isCredentialsNonExpired() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[49,5] isEnabled() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[27,40] cannot find symbol
+  symbol:   class UsernameNotFoundException
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[32,9] cannot find symbol
+  symbol:   class DaoAuthenticationProvider
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[32,54] cannot find symbol
+  symbol:   class DaoAuthenticationProvider
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[45,20] cannot find symbol
+  symbol:   class BCryptPasswordEncoder
+  location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/ResumeService.java:[65,15] cannot find symbol
+  symbol:   method setAnalysis(java.lang.String)
+  location: variable resume of type com.careerboost.model.Resume
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/ResumeService.java:[66,15] cannot find symbol
+  symbol:   method setScore(int)
+  location: variable resume of type com.careerboost.model.Resume
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/ResumeService.java:[67,15] cannot find symbol
+  symbol:   method setRoastMode(boolean)
+  location: variable resume of type com.careerboost.model.Resume
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[52,21] cannot find symbol
+  symbol:   class UsernamePasswordAuthenticationToken
+  location: class com.careerboost.service.AuthService
+[INFO] 98 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.338 s
+[INFO] Finished at: 2026-04-02T04:02:59+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project careerboost-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[5,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[6,75] package org.springframework.security.config.annotation.method.configuration does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[7,67] package org.springframework.security.config.annotation.web.builders does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[8,72] package org.springframework.security.config.annotation.web.configuration does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[9,70] package org.springframework.security.config.annotation.web.configurers does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[10,48] package org.springframework.security.config.http does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[11,40] package org.springframework.security.web does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[12,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[21,2] cannot find symbol
+[ERROR]   symbol: class EnableWebSecurity
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[22,2] cannot find symbol
+[ERROR]   symbol: class EnableMethodSecurity
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[9,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[10,49] package org.springframework.security.core.context does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[11,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[12,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[13,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[26,19] cannot find symbol
+[ERROR]   symbol:   class AuthenticationProvider
+[ERROR]   location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[28,66] cannot find symbol
+[ERROR]   symbol:   class AuthenticationProvider
+[ERROR]   location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[34,52] cannot find symbol
+[ERROR]   symbol:   class HttpSecurity
+[ERROR]   location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[34,12] cannot find symbol
+[ERROR]   symbol:   class SecurityFilterChain
+[ERROR]   location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[8,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[23,19] cannot find symbol
+[ERROR]   symbol:   class UserDetailsService
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[25,59] cannot find symbol
+[ERROR]   symbol:   class UserDetailsService
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[35,33] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[39,66] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[43,64] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/JwtService.java:[54,47] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.careerboost.service.JwtService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/DashboardController.java:[8,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[7,41] package org.springframework.security.core does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[8,51] package org.springframework.security.core.authority does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[9,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[15,30] cannot find symbol
+[ERROR]   symbol: class UserDetails
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[29,33] cannot find symbol
+[ERROR]   symbol:   class GrantedAuthority
+[ERROR]   location: class com.careerboost.model.User
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[6,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[8,55] package org.springframework.security.authentication.dao does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[9,83] package org.springframework.security.config.annotation.authentication.configuration does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[10,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[11,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[12,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[13,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class UserDetailsService
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[31,12] cannot find symbol
+[ERROR]   symbol:   class AuthenticationProvider
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[39,56] cannot find symbol
+[ERROR]   symbol:   class AuthenticationConfiguration
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[39,12] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[44,12] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[9,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[5,43] package org.springframework.security.access does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[6,41] package org.springframework.security.core does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[24,78] cannot find symbol
+[ERROR]   symbol:   class AuthenticationException
+[ERROR]   location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[31,76] cannot find symbol
+[ERROR]   symbol:   class AccessDeniedException
+[ERROR]   location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[10,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[11,51] package org.springframework.security.authentication does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[12,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[18,19] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[20,19] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[22,51] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[22,107] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class com.careerboost.service.AuthService
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AuthController.java:[9,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[9,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/PaymentController.java:[6,52] package org.springframework.security.core.annotation does not exist
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/DashboardController.java:[28,65] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.DashboardController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[31,14] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.ResumeController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[43,14] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.ResumeController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/ResumeController.java:[53,53] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.ResumeController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[23,23] cannot find symbol
+[ERROR]   symbol:   class AuthenticationException
+[ERROR]   location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/exception/GlobalExceptionHandler.java:[30,23] cannot find symbol
+[ERROR]   symbol:   class AccessDeniedException
+[ERROR]   location: class com.careerboost.exception.GlobalExceptionHandler
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AuthController.java:[37,49] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.AuthController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[25,93] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[30,89] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[35,95] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/AIController.java:[40,95] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.AIController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/PaymentController.java:[22,48] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.PaymentController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/controller/PaymentController.java:[29,92] cannot find symbol
+[ERROR]   symbol:   class AuthenticationPrincipal
+[ERROR]   location: class com.careerboost.controller.PaymentController
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[46,45] cannot find symbol
+[ERROR]   symbol:   class UsernamePasswordAuthenticationFilter
+[ERROR]   location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[36,19] cannot find symbol
+[ERROR]   symbol:   variable AbstractHttpConfigurer
+[ERROR]   location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/SecurityConfig.java:[44,73] cannot find symbol
+[ERROR]   symbol:   variable SessionCreationPolicy
+[ERROR]   location: class com.careerboost.config.SecurityConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[48,38] cannot find symbol
+[ERROR]   symbol:   variable SecurityContextHolder
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[49,17] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[51,21] cannot find symbol
+[ERROR]   symbol:   class UsernamePasswordAuthenticationToken
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[51,73] cannot find symbol
+[ERROR]   symbol:   class UsernamePasswordAuthenticationToken
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[56,46] cannot find symbol
+[ERROR]   symbol:   class WebAuthenticationDetailsSource
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/JwtAuthenticationFilter.java:[57,21] cannot find symbol
+[ERROR]   symbol:   variable SecurityContextHolder
+[ERROR]   location: class com.careerboost.config.JwtAuthenticationFilter
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[28,5] getAuthorities() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[30,28] cannot find symbol
+[ERROR]   symbol:   class SimpleGrantedAuthority
+[ERROR]   location: class com.careerboost.model.User
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[33,5] getUsername() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[38,5] getPassword() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[43,5] isAccountNonExpired() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[45,5] isAccountNonLocked() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[47,5] isCredentialsNonExpired() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/model/User.java:[49,5] isEnabled() in com.careerboost.model.User does not override or implement a method from a supertype
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[27,40] cannot find symbol
+[ERROR]   symbol:   class UsernameNotFoundException
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[32,9] cannot find symbol
+[ERROR]   symbol:   class DaoAuthenticationProvider
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[32,54] cannot find symbol
+[ERROR]   symbol:   class DaoAuthenticationProvider
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/config/ApplicationConfig.java:[45,20] cannot find symbol
+[ERROR]   symbol:   class BCryptPasswordEncoder
+[ERROR]   location: class com.careerboost.config.ApplicationConfig
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/ResumeService.java:[65,15] cannot find symbol
+[ERROR]   symbol:   method setAnalysis(java.lang.String)
+[ERROR]   location: variable resume of type com.careerboost.model.Resume
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/ResumeService.java:[66,15] cannot find symbol
+[ERROR]   symbol:   method setScore(int)
+[ERROR]   location: variable resume of type com.careerboost.model.Resume
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/ResumeService.java:[67,15] cannot find symbol
+[ERROR]   symbol:   method setRoastMode(boolean)
+[ERROR]   location: variable resume of type com.careerboost.model.Resume
+[ERROR] /C:/Users/Lenovo/OneDrive/Desktop/SOFTWEAR ENGINER/CareerBoost AI/backend/src/main/java/com/careerboost/service/AuthService.java:[52,21] cannot find symbol
+[ERROR]   symbol:   class UsernamePasswordAuthenticationToken
+[ERROR]   location: class com.careerboost.service.AuthService
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

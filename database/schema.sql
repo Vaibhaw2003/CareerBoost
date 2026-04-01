@@ -1,0 +1,49 @@
+CREATE DATABASE IF NOT EXISTS careerboost;
+USE careerboost;
+
+CREATE TABLE IF NOT EXISTS users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    plan ENUM('FREE', 'PRO') DEFAULT 'FREE',
+    usage_count INT DEFAULT 0,
+    xp_points INT DEFAULT 0,
+    level VARCHAR(20) DEFAULT 'BEGINNER',
+    role ENUM('USER', 'ADMIN') DEFAULT 'USER',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS resumes (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    file_name VARCHAR(255),
+    analysis JSON,
+    score INT,
+    roast_mode BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS payments (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL,
+    status VARCHAR(20),
+    razorpay_order_id VARCHAR(100),
+    razorpay_payment_id VARCHAR(100),
+    razorpay_signature VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS interviews (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    role VARCHAR(100),
+    result JSON,
+    type ENUM('TEXT', 'VOICE') DEFAULT 'TEXT',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);

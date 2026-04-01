@@ -1,0 +1,86 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.careerboost:careerboost-backend >-----------------
+[INFO] Building careerboost-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.12:run (default-cli) > test-compile @ careerboost-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ careerboost-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ careerboost-backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ careerboost-backend ---
+[INFO] skip non existing resourceDirectory C:\Users\Lenovo\OneDrive\Desktop\SOFTWEAR ENGINER\CareerBoost AI\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ careerboost-backend ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.12:run (default-cli) < test-compile @ careerboost-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.12:run (default-cli) @ careerboost-backend ---
+[INFO] Attaching agents: []
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.12)
+
+2026-04-02T04:11:18.683+05:30  INFO 21756 --- [           main] com.careerboost.CareerBoostApplication   : Starting CareerBoostApplication using Java 26 with PID 21756 (C:\Users\Lenovo\OneDrive\Desktop\SOFTWEAR ENGINER\CareerBoost AI\backend\target\classes started by Lenovo in C:\Users\Lenovo\OneDrive\Desktop\SOFTWEAR ENGINER\CareerBoost AI\backend)
+2026-04-02T04:11:18.685+05:30  INFO 21756 --- [           main] com.careerboost.CareerBoostApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T04:11:19.219+05:30  INFO 21756 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2026-04-02T04:11:19.272+05:30  INFO 21756 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 4 MongoDB repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/C:/Users/Lenovo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.33/tomcat-embed-core-10.1.33.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-04-02T04:11:19.798+05:30  INFO 21756 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-02T04:11:19.816+05:30  INFO 21756 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T04:11:19.816+05:30  INFO 21756 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-04-02T04:11:19.916+05:30  INFO 21756 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-02T04:11:19.917+05:30  INFO 21756 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+2026-04-02T04:11:20.116+05:30  INFO 21756 --- [           main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.5"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/26+35-2893"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4a8a0099, com.mongodb.Jep395RecordCodecProvider@7c1447b5, com.mongodb.KotlinCodecProvider@49e4c2d5]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2026-04-02T04:11:20.152+05:30  INFO 21756 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19987300}
+2026-04-02T04:11:20.832+05:30  INFO 21756 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1471b98d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5514579e, org.springframework.security.web.context.SecurityContextHolderFilter@a316f6b, org.springframework.security.web.header.HeaderWriterFilter@3ace6346, org.springframework.web.filter.CorsFilter@58c42c8c, org.springframework.security.web.authentication.logout.LogoutFilter@69b3886f, com.careerboost.config.JwtAuthenticationFilter@3c19592c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@410fc508, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ddeb27f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3af236d0, org.springframework.security.web.session.SessionManagementFilter@70b33256, org.springframework.security.web.access.ExceptionTranslationFilter@27ffd9f8, org.springframework.security.web.access.intercept.AuthorizationFilter@76a6f045]
+2026-04-02T04:11:21.003+05:30  WARN 21756 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-02T04:11:21.020+05:30  INFO 21756 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-02T04:11:21.035+05:30 ERROR 21756 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.217 s
+[INFO] Finished at: 2026-04-02T04:11:21+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.12:run (default-cli) on project careerboost-backend: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
