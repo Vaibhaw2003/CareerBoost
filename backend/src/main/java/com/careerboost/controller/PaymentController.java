@@ -19,9 +19,12 @@ public class PaymentController {
     }
 
     @PostMapping("/create-order")
-    public ResponseEntity<String> createOrder(@AuthenticationPrincipal User user) {
-        // Hardcoded price for PRO plan (e.g., 999 INR)
-        String orderJson = paymentService.createOrder(user, 999.0);
+    public ResponseEntity<String> createOrder(@RequestBody(required = false) Map<String, Object> payload, @AuthenticationPrincipal User user) {
+        double amount = 999.0;
+        if (payload != null && payload.containsKey("amount")) {
+            amount = Double.parseDouble(payload.get("amount").toString());
+        }
+        String orderJson = paymentService.createOrder(user, amount);
         return ResponseEntity.ok(orderJson);
     }
 

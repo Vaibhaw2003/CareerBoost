@@ -23,7 +23,7 @@ export default function ResumeRoast() {
       setResult(data);
       toast.success('Prepare to be roasted!');
     } catch (error) {
-      toast.error(error.response?.data?.error || 'Failed to analyze resume');
+      toast.error(error.response?.data?.error || 'The judge is currently unavailable. No roasting today.');
     } finally {
       setLoading(false);
     }

@@ -29,7 +29,7 @@ export default function ResumeAnalyzer() {
       setResult(data);
       toast.success('Analysis complete!');
     } catch (error) {
-      toast.error(error.response?.data?.error || 'Failed to analyze resume');
+      toast.error(error.response?.data?.error || 'Failed to analyze resume. Please try again.');
     } finally {
       setLoading(false);
     }

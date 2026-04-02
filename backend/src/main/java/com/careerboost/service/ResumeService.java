@@ -33,9 +33,12 @@ public class ResumeService {
     }
 
     public ResumeAnalysisResponse analyzeResume(MultipartFile file, User user, boolean isRoast) throws IOException {
-        // Enforce usage limits
+        // Enforce usage limits based on plan
         if (user.getPlan() == Plan.FREE && user.getUsageCount() >= 2) {
-            throw new UsageLimitExceededException("Free plan limit reached. Please upgrade to PRO.");
+            throw new UsageLimitExceededException("Free plan limit reached (2 analyses). Please upgrade to Starter or Pro.");
+        }
+        if (user.getPlan() == Plan.STARTER && user.getUsageCount() >= 15) {
+            throw new UsageLimitExceededException("Starter plan limit reached (15 analyses/month). Upgrade to Pro for unlimited access.");
         }
 
         // Extract text from PDF
@@ -78,7 +81,13 @@ public class ResumeService {
     private String extractTextFromPdf(MultipartFile file) throws IOException {
         try (PDDocument document = Loader.loadPDF(new RandomAccessReadBuffer(file.getInputStream()))) {
             PDFTextStripper stripper = new PDFTextStripper();
-            return stripper.getText(document);
+            String text = stripper.getText(document);
+            if (text == null || text.trim().isEmpty()) {
+                System.out.println("WARNING: No text extracted from PDF: " + file.getOriginalFilename());
+            } else {
+                System.out.println("Text extraction successful. First 100 chars: " + (text.length() > 100 ? text.substring(0, 100) : text));
+            }
+            return text;
         }
     }
 }

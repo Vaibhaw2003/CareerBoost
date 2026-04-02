@@ -74,7 +74,14 @@ public class PaymentService {
                 payment.setRazorpaySignature(signature);
                 paymentRepository.save(payment);
 
-                user.setPlan(Plan.PRO);
+                String planStr = payload.get("plan");
+                Plan selectedPlan = Plan.PRO; // Default
+                if (planStr != null && planStr.trim().equalsIgnoreCase("STARTER")) {
+                    selectedPlan = Plan.STARTER;
+                } else if (planStr != null && planStr.trim().equalsIgnoreCase("PRO")) {
+                    selectedPlan = Plan.PRO;
+                }
+                user.setPlan(selectedPlan);
                 userRepository.save(user);
             }
             return status;
